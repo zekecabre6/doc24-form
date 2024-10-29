@@ -1,0 +1,142 @@
+{
+    "Cardiología": [
+        {
+            "nombre": "Dr. Juan Pérez",
+            "horarios": ["10:00 - 12:00", "13:00 - 15:00", "16:00 - 18:00", "19:00 - 20:00"]
+        },
+        {
+            "nombre": "Dra. María Gómez",
+            "horarios": ["14:00 - 16:00", "16:00 - 18:00", "19:00 - 20:30"]
+        },
+        {
+            "nombre": "Dr. José Rodríguez",
+            "horarios": ["09:00 - 11:00", "12:00 - 14:00", "15:00 - 17:00"]
+        }
+    ],
+    "Pediatría": [
+        {
+            "nombre": "Dra. Ana Martínez",
+            "horarios": ["10:00 - 12:00", "13:00 - 15:00", "16:00 - 17:30"]
+        },
+        {
+            "nombre": "Dr. Carlos Sánchez",
+            "horarios": ["14:00 - 16:00", "15:00 - 17:00", "18:00 - 19:00"]
+        },
+        {
+            "nombre": "Dra. Laura Pérez",
+            "horarios": ["16:00 - 18:00", "17:00 - 19:00"]
+        }
+    ],
+    "Ginecología": [
+        {
+            "nombre": "Dra. María Gómez",
+            "horarios": ["10:00 - 12:00", "13:00 - 15:00", "15:30 - 17:00"]
+        },
+        {
+            "nombre": "Dr. Juan Pérez",
+            "horarios": ["14:00 - 16:00", "16:00 - 18:00"]
+        },
+        {
+            "nombre": "Dra. Laura Pérez",
+            "horarios": ["16:00 - 18:00", "18:30 - 20:00"]
+        }
+    ],
+    "Neumología": [
+        {
+            "nombre": "Dr. Fernando Ruiz",
+            "horarios": ["09:00 - 11:00", "12:00 - 14:00", "15:00 - 17:00"]
+        },
+        {
+            "nombre": "Dra. Patricia Torres",
+            "horarios": ["11:00 - 13:00", "15:00 - 17:00", "18:00 - 19:00"]
+        },
+        {
+            "nombre": "Dr. Luis Gómez",
+            "horarios": ["15:00 - 17:00", "17:00 - 19:00"]
+        }
+    ],
+    "Oftalmología": [
+        {
+            "nombre": "Dra. Silvia Fernández",
+            "horarios": ["10:00 - 12:00", "13:00 - 15:00", "16:00 - 17:30"]
+        },
+        {
+            "nombre": "Dr. Pablo López",
+            "horarios": ["14:00 - 16:00", "15:00 - 17:00"]
+        },
+        {
+            "nombre": "Dra. Ana Torres",
+            "horarios": ["16:00 - 18:00", "18:30 - 20:00"]
+        }
+    ],
+    "Traumatología": [
+        {
+            "nombre": "Dr. Marcos Díaz",
+            "horarios": ["08:00 - 10:00", "11:00 - 13:00", "14:00 - 15:30"]
+        },
+        {
+            "nombre": "Dra. Laura Sánchez",
+            "horarios": ["10:00 - 12:00", "13:00 - 15:00"]
+        },
+        {
+            "nombre": "Dr. Andrés Martínez",
+            "horarios": ["13:00 - 15:00", "16:00 - 18:00", "18:30 - 20:00"]
+        }
+    ],
+    "Dermatología": [
+        {
+            "nombre": "Dra. Elena Castro",
+            "horarios": ["09:00 - 11:00", "12:00 - 14:00", "14:30 - 16:00"]
+        },
+        {
+            "nombre": "Dr. Nicolás Fernández",
+            "horarios": ["11:00 - 13:00", "14:00 - 16:00", "16:30 - 18:00"]
+        },
+        {
+            "nombre": "Dra. Valeria Muñoz",
+            "horarios": ["14:00 - 16:00", "15:00 - 17:00"]
+        }
+    ],
+    "Otorrinolaringología": [
+        {
+            "nombre": "Dr. Javier Solís",
+            "horarios": ["09:00 - 11:00", "12:00 - 14:00", "15:00 - 17:00"]
+        },
+        {
+            "nombre": "Dra. Beatriz Ruiz",
+            "horarios": ["11:00 - 13:00", "14:00 - 16:00"]
+        },
+        {
+            "nombre": "Dr. Gabriel Ortega",
+            "horarios": ["14:00 - 16:00", "16:00 - 18:00"]
+        }
+    ],
+    "Endocrinología": [
+        {
+            "nombre": "Dra. Clara Romero",
+            "horarios": ["08:00 - 10:00", "10:00 - 12:00", "12:30 - 14:00"]
+        },
+        {
+            "nombre": "Dr. Sergio González",
+            "horarios": ["10:00 - 12:00", "14:00 - 16:00"]
+        },
+        {
+            "nombre": "Dra. Laura Herrera",
+            "horarios": ["15:00 - 17:00", "17:30 - 19:00"]
+        }
+    ],
+    "Reumatología": [
+        {
+            "nombre": "Dr. Esteban Morales",
+            "horarios": ["10:00 - 12:00", "14:00 - 16:00", "17:00 - 19:00"]
+        },
+        {
+            "nombre": "Dra. Lucía Paredes",
+            "horarios": ["14:00 - 16:00", "16:00 - 18:00"]
+        },
+        {
+            "nombre": "Dr. Alejandro Jiménez",
+            "horarios": ["16:00 - 18:00", "18:30 - 20:00"]
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+<ng-include src="'../pages/partials/navbar.html'"></ng-include>
+<div class="container inicio">
+<div class="cent form">
+    <h2>Solicitar Turno</h2>
+    <!-- <form ng-submit="turnoCtrl.onSubmit($event)">
+        <label for="especialidad">Especialidad:</label>
+        <select name="especialidad" ng-model="turnoCtrl.especialidadSeleccionada" ng-change="turnoCtrl.obtenerProfesionales()">
+            <option value="" disabled selected>Selecciona una especialidad</option>
+            <option [value]="especialidad.id" ng-repeat="especialidad in turnoCtrl.especialidades">{{especialidad.nombre}}</option>
+        </select>
+
+        <div ng-if="!!turnoCtrl.especialidadSeleccionada">
+            <label for="profesional">Profesional:</label>
+            <select name="profesional"  ng-model="turnoCtrl.profesionalSeleccionado" ng-change="turnoCtrl.obtenerHorarios()">
+                <option value="" disabled selected>Selecciona un profesional</option>
+                <option [value]="profesional.nombre" ng-repeat="profesional in turnoCtrl.profesionales">{{profesional.nombre}}</option>
+            </select>
+        </div>
+
+        <div ng-if="!!turnoCtrl.profesionalSeleccionado">
+            <label for="horarios">Horarios:</label>
+            <select name="horario" ng-model="turnoCtrl.horarioSeleccionado">
+                <option value="" disabled selected>Selecciona un horario</option>
+                <option [value]="horario" ng-repeat="horario in turnoCtrl.horarios">{{horario}}</option>
+            </select>
+        </div>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input name="nombre" type="text" ng-model="nombre" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input name="apellido" type="text" ng-model="apellido" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input name="direccion" type="text" ng-model="direccion" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input name="telefono" type="tel" ng-model="telefono" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+        <div>
+            <label for="comentario">Comentario (opcional):</label>
+            <textarea name="comentario" ng-model="comentario"></textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+    </form> -->
+
+    <form ng-submit="turnoCtrl.onSubmit($event)" >
+        <label for="especialidad">Especialidad:</label>
+        <select name="especialidad" ng-model="turnoCtrl.especialidadSeleccionada" ng-change="turnoCtrl.obtenerProfesionales()">
+            <option value="" disabled selected>Selecciona una especialidad</option>
+            <option [value]="especialidad.id" ng-repeat="especialidad in turnoCtrl.especialidades">{{especialidad.nombre}}</option>
+        </select>
+    
+        <div ng-if="!!turnoCtrl.especialidadSeleccionada">
+            <label for="profesional">Profesional:</label>
+            <select name="profesional" ng-model="turnoCtrl.profesionalSeleccionado" ng-change="turnoCtrl.obtenerHorarios()">
+                <option value="" disabled selected>Selecciona un profesional</option>
+                <option [value]="profesional.nombre" ng-repeat="profesional in turnoCtrl.profesionales">{{profesional.nombre}}</option>
+            </select>
+        </div>
+    
+        <div ng-if="!!turnoCtrl.profesionalSeleccionado">
+            <label for="horarios">Horarios:</label>
+            <select name="horario" ng-model="turnoCtrl.horarioSeleccionado">
+                <option value="" disabled selected>Selecciona un horario</option>
+                <option [value]="horario" ng-repeat="horario in turnoCtrl.horarios">{{horario}}</option>
+            </select>
+        </div>
+    
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input name="nombre" type="text" ng-model="turnoCtrl.nombre" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+    
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input name="apellido" type="text" ng-model="turnoCtrl.apellido" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+    
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input name="direccion" type="text" ng-model="turnoCtrl.direccion" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+    
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input name="telefono" type="tel" ng-model="turnoCtrl.telefono" required ng-disabled="!turnoCtrl.especialidadSeleccionada || !turnoCtrl.profesionalSeleccionado || !turnoCtrl.horarioSeleccionado">
+        </div>
+    
+        <div>
+            <label for="comentario">Comentario (opcional):</label>
+            <textarea name="comentario" ng-model="turnoCtrl.comentario"></textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+    </form>
+    
+
+</div>
+
+</div>
+</di>
+<ng-include src="'../pages/partials/footer.html'"></ng-include>

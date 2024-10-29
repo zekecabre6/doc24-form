@@ -1,10 +1,45 @@
 @import '../variables';
 
-.navbar-default{
+.navbar-default {
     background-color: $main_color;
-    padding:10px 0;
+    padding: 10px 0;
 
-    img{
-        margin-left: 20px;
+    .contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 30px;
+
+        .navbar-header {
+            img {
+                margin-left: 0;
+                height: 50px;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            li {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    a {
+        color: $white;
+        font-size: 1.2em;
+        font-weight: 500;
+        text-decoration: none;
+
+        &:hover {
+            font-weight: 700;
+        }
+
+        transition: all 0.3s;
     }
 }

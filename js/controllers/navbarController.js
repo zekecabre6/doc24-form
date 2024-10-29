@@ -1,3 +1,4 @@
+
 (function () {
     'use strict';
 
@@ -5,9 +6,13 @@
         .module('miApp')
         .controller('NavbarController', NavbarController);
 
-    NavbarController.$inject = ['$scope'];
+    NavbarController.$inject = ['$location'];
 
-    function NavbarController($scope) {
+    function NavbarController($location) {
         var vm = this;
+
+        vm.isHomePage = function() {
+            return $location.path() === '/inicio';
+        };
     }
 })();

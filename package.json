@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
         "start": "nodemon server.js --delay 1000ms",
-        "watch": "nodemon --watch . --exec 'npm run build && npm start' --event 'change,add,delete' --ext 'js,html,scss' --ignore public/",
+        "watch": "nodemon --watch . --exec \"npm run build && npm start\" --event \"change,add,delete\" --ext \"js,html,scss\" --ignore public/",
         "build": "node build.js"
     },
     "dependencies": {

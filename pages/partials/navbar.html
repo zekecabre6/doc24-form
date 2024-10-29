@@ -1,7 +1,15 @@
-<nav class="navbar navbar-default navbar-fixed-top" ng-controller="NavbarController as navCtrl">
-    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top" ng-controller="MainController as mainCtrl">
+    <div class="contain">
         <div class="navbar-header">
             <img src="img/logo.png" alt="logo" />
         </div>
+        <ul>
+            <li ng-if="!mainCtrl.isInicioPage()">
+                <a ui-sref="inicio">Inicio</a>
+            </li>
+            <li ng-if="mainCtrl.isInicioPage()">
+                <a ui-sref="solicitarTurno">Solicitar Turno</a>
+            </li>
+        </ul>
     </div>
 </nav>
